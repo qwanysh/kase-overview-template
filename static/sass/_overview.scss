@@ -1,0 +1,14 @@
+.overview {
+  padding: 60px 0;
+
+  &__row {
+    display: grid;
+    grid-template-columns: 34px 1fr;
+    grid-gap: 15px;
+
+    @include _768 {
+      grid-template-columns: 60px 1fr;
+      grid-gap: 40px;
+    }
+  }
+}

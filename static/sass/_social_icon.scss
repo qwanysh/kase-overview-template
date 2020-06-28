@@ -1,0 +1,29 @@
+.social-icon {
+  display: flex;
+  margin-bottom: 15px;
+  padding: 5px;
+  transition: all 0s;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    fill: $lightgray;
+    transition: fill 0.3s;
+
+    .social-icon:hover & {
+      fill: $gray;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 60px;
+  }
+}

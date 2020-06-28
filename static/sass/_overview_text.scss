@@ -1,0 +1,14 @@
+.overview-text {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  text-align: justify;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include _768 {
+    text-align: left;
+  }
+}
